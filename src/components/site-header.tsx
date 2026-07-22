@@ -8,10 +8,10 @@ import { Button } from "@/components/ui/button";
 import { siteConfig } from "@/lib/site-config";
 
 const navLinks = [
-  { href: "#features", label: "Özellikler" },
-  { href: "#why", label: "Neden Hüccet?" },
-  { href: "#how-it-works", label: "Nasıl Çalışır" },
-  { href: "#faq", label: "SSS" },
+  { href: "#features", label: "Features" },
+  { href: "#why", label: "Why Huccet?" },
+  { href: "#how-it-works", label: "How It Works" },
+  { href: "#faq", label: "FAQ" },
 ];
 
 export function SiteHeader() {
@@ -52,13 +52,13 @@ export function SiteHeader() {
             nativeButton={false}
             className="bg-brand-500 text-brand-950 hover:bg-brand-400"
           >
-            Uygulamayı İndir
+            Download the App
           </Button>
         </div>
 
         <button
           type="button"
-          aria-label="Menüyü aç/kapat"
+          aria-label="Toggle menu"
           onClick={() => setOpen((v) => !v)}
           className="flex h-9 w-9 items-center justify-center rounded-lg text-white md:hidden"
         >
@@ -84,7 +84,7 @@ export function SiteHeader() {
               nativeButton={false}
               className="mt-2 w-full bg-brand-500 text-brand-950 hover:bg-brand-400"
             >
-              Uygulamayı İndir
+              Download the App
             </Button>
           </nav>
         </div>

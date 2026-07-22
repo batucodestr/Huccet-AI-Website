@@ -16,7 +16,7 @@ export function LegalPage({
           {title}
         </h1>
         <p className="mt-3 text-sm text-muted-foreground">
-          Son güncelleme: {updatedAt}
+          Last updated: {updatedAt}
         </p>
 
         <div

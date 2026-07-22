@@ -5,8 +5,8 @@ import { LegalPage } from "@/components/legal-page";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "Gizlilik Politikası",
-  description: `${siteConfig.name} gizlilik politikası — verilerinizin nasıl işlendiği ve korunduğu hakkında bilgi edinin.`,
+  title: "Privacy Policy",
+  description: `Learn how ${siteConfig.name} handles and protects your data.`,
 };
 
 export default function PrivacyPolicyPage() {
@@ -14,125 +14,83 @@ export default function PrivacyPolicyPage() {
     <>
       <SiteHeader />
       <main className="flex-1">
-        <LegalPage title="Gizlilik Politikası" updatedAt="11 Temmuz 2026">
+        <LegalPage title="Privacy Policy" updatedAt="July 11, 2026">
           <p>
-            Bu Gizlilik Politikası, Hüccet AI mobil uygulamasını
-            (&ldquo;Uygulama&rdquo;, &ldquo;Hüccet AI&rdquo;, &ldquo;biz&rdquo;)
-            kullanırken kişisel verilerinizin nasıl toplandığını,
-            kullanıldığını ve korunduğunu açıklamaktadır. Uygulamayı
-            kullanarak bu politikada belirtilen uygulamaları kabul etmiş
-            olursunuz.
+            This Privacy Policy explains how your personal data is collected, used,
+            and protected when you use the Huccet AI mobile application (the
+            &ldquo;App&rdquo;, &ldquo;Huccet AI&rdquo;, or &ldquo;we&rdquo;). By using the App, you accept the
+            practices described in this policy.
           </p>
-
-          <h2>1. Topladığımız Bilgiler</h2>
+          <h2>1. Information We Collect</h2>
           <p>
-            Hüccet AI, kullanıcı hesabı oluşturmanızı gerektirmez. Buna
-            rağmen uygulamanın çalışması ve geliştirilmesi için aşağıdaki
-            sınırlı veriler toplanabilir:
+            Huccet AI does not require you to create a user account. However, the
+            following limited data may be collected to operate and improve the App:
           </p>
           <ul>
-            <li>
-              <strong>Anonim Ziyaretçi Kimliği:</strong> Cihazınıza özgü,
-              kimliğinizi doğrudan ifşa etmeyen anonim bir tanımlayıcı
-              (visitor ID) oluşturulur. Bu kimlik, oturumlar arasında
-              tutarlı bir deneyim sağlamak ve kötüye kullanımı önlemek
-              amacıyla kullanılır.
-            </li>
-            <li>
-              <strong>Kullanım Verileri:</strong> Uygulama içinde sorulan
-              sorular, görüntülenen ekranlar ve etkileşim istatistikleri
-              gibi anonimleştirilmiş kullanım verileri toplanabilir.
-            </li>
-            <li>
-              <strong>Cihaz ve Teknik Bilgiler:</strong> İşletim sistemi
-              sürümü, uygulama sürümü, cihaz modeli ve çökme (crash)
-              raporları gibi teknik veriler, hizmet kalitesini artırmak
-              için toplanabilir.
-            </li>
-            <li>
-              <strong>Analitik Veriler:</strong> Uygulamanın nasıl
-              kullanıldığını anlamak amacıyla toplu ve anonim analitik
-              veriler işlenir.
-            </li>
+            <li><strong>Anonymous Visitor ID:</strong> A device-specific, anonymous identifier that does not directly reveal your identity may be created to provide a consistent experience and prevent misuse.</li>
+            <li><strong>Usage Data:</strong> Anonymized usage data, such as questions asked, screens viewed, and interaction statistics, may be collected.</li>
+            <li><strong>Device and Technical Information:</strong> Technical data such as operating-system version, app version, device model, and crash reports may be collected to improve service quality.</li>
+            <li><strong>Analytics Data:</strong> Aggregated and anonymous analytics may be processed to understand how the App is used.</li>
           </ul>
-
-          <h2>2. Firebase ve Üçüncü Taraf Hizmetler</h2>
+          <h2>2. Firebase and Third-Party Services</h2>
           <p>
-            Uygulamamız, Google tarafından sağlanan Firebase altyapısını
-            (ör. Firebase Analytics, Firebase Crashlytics, Firebase
-            Authentication altyapısı) kullanabilir. Firebase, yukarıda
-            belirtilen anonim kullanım ve teknik verilerin toplanmasına ve
-            işlenmesine yardımcı olur. Firebase&apos;in veri işleme
-            uygulamaları hakkında daha fazla bilgi için Google&apos;ın kendi
-            gizlilik politikasını inceleyebilirsiniz.
+            Our App may use Firebase infrastructure provided by Google, such as
+            Firebase Analytics, Firebase Crashlytics, and Firebase Authentication.
+            Firebase may help collect and process the anonymous usage and technical
+            data described above. Please review Google&apos;s privacy policy for more
+            information about Firebase&apos;s data practices.
           </p>
-
-          <h2>3. Çerezler ve Benzeri Teknolojiler</h2>
+          <h2>3. Cookies and Similar Technologies</h2>
           <p>
-            Web sitemiz, temel işlevsellik ve anonim ziyaretçi analitiği
-            için sınırlı sayıda çerez veya benzeri yerel depolama
-            teknolojileri kullanabilir. Bu teknolojiler kişisel
-            kimliğinizi belirlemek amacıyla kullanılmaz. Tarayıcı
-            ayarlarınızdan çerezleri yönetebilir veya devre dışı
-            bırakabilirsiniz.
+            Our website may use a limited number of cookies or similar local-storage
+            technologies for essential functionality and anonymous visitor analytics.
+            These technologies are not used to identify you personally. You can
+            manage or disable cookies through your browser settings.
           </p>
-
-          <h2>4. Verilerin Kullanım Amacı</h2>
-          <p>Topladığımız veriler yalnızca aşağıdaki amaçlarla kullanılır:</p>
+          <h2>4. How We Use Data</h2>
+          <p>We use collected data only to:</p>
           <ul>
-            <li>Uygulamanın işlevselliğini sağlamak ve sürdürmek</li>
-            <li>Hizmet kalitesini analiz etmek ve geliştirmek</li>
-            <li>Teknik hataları tespit etmek ve gidermek</li>
-            <li>Kötüye kullanımı ve güvenlik ihlallerini önlemek</li>
+            <li>Provide and maintain the App&apos;s functionality</li>
+            <li>Analyze and improve service quality</li>
+            <li>Detect and resolve technical issues</li>
+            <li>Prevent misuse and security violations</li>
           </ul>
+          <p>Your data is never sold or rented to third parties for marketing purposes.</p>
+          <h2>5. Data Retention and Security</h2>
           <p>
-            Verileriniz hiçbir şekilde üçüncü taraflara pazarlama
-            amacıyla satılmaz veya kiralanmaz.
+            Your data is protected with reasonable technical and administrative
+            measures against unauthorized access, loss, or misuse. It is retained
+            only as long as necessary for its functional purpose, unless a longer
+            retention period is required by law.
           </p>
-
-          <h2>5. Verilerin Saklanması ve Güvenliği</h2>
+          <h2>6. A Note About Religious Content and Questions</h2>
           <p>
-            Verileriniz, yetkisiz erişime, kayba veya kötüye kullanıma
-            karşı makul teknik ve idari önlemlerle korunur. Veriler,
-            yasal olarak gerekli olmadığı sürece, işlevsel amaç için
-            gerekli olduğu kadar saklanır.
+            Questions you enter in the App may be processed to provide better,
+            evidence-based answers. They are evaluated through an anonymous visitor
+            ID and are not linked to your identity.
           </p>
-
-          <h2>6. Dini İçerik ve Sorular Hakkında Bir Not</h2>
+          <h2>7. Children&apos;s Privacy</h2>
           <p>
-            Uygulamaya girdiğiniz sorular, size daha iyi ve kanıt temelli
-            cevaplar sunabilmek amacıyla işlenebilir. Bu sorular kimliğinizle
-            ilişkilendirilmeden, anonim ziyaretçi kimliği üzerinden
-            değerlendirilir.
+            Our App does not knowingly collect personal data from children under
+            13. If we become aware of such a situation, we will promptly delete the
+            relevant data.
           </p>
-
-          <h2>7. Çocukların Gizliliği</h2>
+          <h2>8. Your Rights</h2>
           <p>
-            Uygulamamız, 13 yaşın altındaki çocuklardan bilerek kişisel
-            veri toplamamaktadır. Böyle bir durumun farkına varmamız
-            halinde ilgili verileri derhal sileriz.
+            Subject to applicable data-protection laws, you may have the right to
+            request access to, correction of, or deletion of your data. You may
+            contact us through the communication channels in the App for such requests.
           </p>
-
-          <h2>8. Haklarınız</h2>
+          <h2>9. Changes to This Policy</h2>
           <p>
-            Yürürlükteki veri koruma mevzuatına bağlı olarak, verilerinize
-            erişme, düzeltme veya silinmesini talep etme hakkına sahip
-            olabilirsiniz. Bu tür talepler için bizimle iletişime
-            geçebilirsiniz.
+            We may update this Privacy Policy from time to time. Changes take effect
+            when published on this page. We may notify you of significant changes
+            through an in-app notification.
           </p>
-
-          <h2>9. Politika Değişiklikleri</h2>
+          <h2>10. Contact</h2>
           <p>
-            Bu Gizlilik Politikasını zaman zaman güncelleyebiliriz.
-            Değişiklikler bu sayfada yayınlandığı anda yürürlüğe girer.
-            Önemli değişikliklerde uygulama içi bildirim yoluyla sizi
-            bilgilendirebiliriz.
-          </p>
-
-          <h2>10. İletişim</h2>
-          <p>
-            Gizlilik politikamız hakkında sorularınız için bize uygulama
-            içindeki iletişim kanallarından ulaşabilirsiniz.
+            If you have questions about this Privacy Policy, please contact us through
+            the communication channels in the App.
           </p>
         </LegalPage>
       </main>

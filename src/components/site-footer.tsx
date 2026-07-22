@@ -32,32 +32,32 @@ export function SiteFooter() {
           </div>
 
           <div>
-            <h3 className="text-sm font-semibold text-white/90">Kurumsal</h3>
+            <h3 className="text-sm font-semibold text-white/90">Legal</h3>
             <ul className="mt-4 space-y-3 text-sm text-white/60">
               <li>
                 <Link href="/privacy" className="hover:text-white">
-                  Gizlilik Politikası
+                  Privacy Policy
                 </Link>
               </li>
               <li>
                 <Link href="/terms" className="hover:text-white">
-                  Kullanım Koşulları
+                  Terms of Service
                 </Link>
               </li>
             </ul>
           </div>
 
           <div>
-            <h3 className="text-sm font-semibold text-white/90">Sayfa</h3>
+            <h3 className="text-sm font-semibold text-white/90">Explore</h3>
             <ul className="mt-4 space-y-3 text-sm text-white/60">
               <li>
                 <Link href="#features" className="hover:text-white">
-                  Özellikler
+                  Features
                 </Link>
               </li>
               <li>
                 <Link href="#faq" className="hover:text-white">
-                  Sıkça Sorulan Sorular
+                  Frequently Asked Questions
                 </Link>
               </li>
             </ul>
@@ -66,11 +66,11 @@ export function SiteFooter() {
 
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 text-xs text-white/50 sm:flex-row">
           <p>
-            © {year} {siteConfig.name}. Tüm hakları saklıdır.
+            © {year} {siteConfig.name}. All rights reserved.
           </p>
           <p className="max-w-md text-center sm:text-right">
-            Hüccet AI bir din görevlisi veya fetva makamı değildir; İslami
-            kaynakları araştırmaya yardımcı bir araçtır.
+            Huccet AI is not a religious authority or a source of fatwas; it is
+            a tool that helps you research Islamic sources.
           </p>
         </div>
       </div>

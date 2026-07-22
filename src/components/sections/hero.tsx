@@ -34,17 +34,16 @@ export function Hero() {
         >
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-brand-400/20 bg-brand-500/10 px-3.5 py-1.5 text-xs font-medium text-brand-200">
             <ShieldCheck className="h-3.5 w-3.5" />
-            Kanıt tabanlı, şeffaf araştırma
+            Evidence-based, transparent research
           </div>
 
           <h1 className="text-balance text-4xl font-semibold tracking-tight text-white sm:text-5xl lg:text-[3.25rem] lg:leading-[1.05]">
-            Her cevabın bir hücceti vardır.
+            Every answer has its evidence.
           </h1>
 
           <p className="mx-auto mt-5 max-w-xl text-pretty text-base leading-relaxed text-white/70 sm:text-lg lg:mx-0">
-            Hüccet AI, güvenilir İslami kaynakları araştıran ve cevaplarını
-            delilleriyle birlikte sunan yapay zekâ destekli araştırma
-            asistanıdır.
+            Huccet AI is an AI-powered research assistant that explores trusted
+            Islamic sources and presents answers with supporting evidence.
           </p>
 
           <div className="mt-8 flex justify-center lg:justify-start">
@@ -53,7 +52,7 @@ export function Hero() {
 
           <div className="mt-8 flex items-center justify-center gap-2 text-xs text-white/40 lg:justify-start">
             <Sparkles className="h-3.5 w-3.5" />
-            Hesap gerekmez · Kaynaklar şeffaf gösterilir
+            No account required · Sources shown transparently
           </div>
         </motion.div>
 

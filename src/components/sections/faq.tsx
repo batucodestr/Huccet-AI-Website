@@ -10,34 +10,34 @@ import {
 
 const faqs = [
   {
-    question: "Hüccet AI fetva verir mi?",
+    question: "Does Huccet AI issue fatwas?",
     answer:
-      "Hayır. Hüccet AI bir din görevlisi veya fetva makamı değildir ve dini hüküm üretmez. Uygulama, güvenilir kaynakları araştırarak size delilleriyle birlikte bilgi sunar; bağlayıcı fetva niteliği taşımaz. Bağlayıcı konular için mutlaka yetkin bir alime danışılmalıdır.",
+      "No. Huccet AI is not a religious authority and does not issue religious rulings. It researches trusted sources and presents information with evidence; it is not a binding fatwa. Consult a qualified scholar for binding matters.",
   },
   {
-    question: "Hangi kaynakları kullanıyor?",
+    question: "Which sources does it use?",
     answer:
-      "Hüccet AI, Kur'an-ı Kerim, sahih hadis kaynakları ve tanınmış alimlerin eserleri gibi güvenilir ve doğrulanabilir İslami kaynaklardan araştırma yapar. Her cevapta ilgili kaynak açıkça belirtilir.",
+      "Huccet AI researches trusted, verifiable Islamic sources, including the Quran, authentic hadith collections, and works by recognized scholars. Each answer clearly identifies the relevant sources.",
   },
   {
-    question: "Hesap oluşturmam gerekiyor mu?",
+    question: "Do I need to create an account?",
     answer:
-      "Hayır, uygulamayı kullanmak için bir hesap oluşturmanıza gerek yoktur. Deneyiminiz anonim bir ziyaretçi kimliği üzerinden sürdürülür ve kişisel bilgi talep edilmez.",
+      "No. You do not need an account to use the app. Your experience is maintained through an anonymous visitor ID, and no personal information is required.",
   },
   {
-    question: "Ücretsiz olacak mı?",
+    question: "Will it be free?",
     answer:
-      "Hüccet AI'nin temel özellikleri ücretsiz olarak sunulacaktır. İlerleyen dönemde sunulabilecek ek özellikler hakkında güncellemeler uygulama üzerinden paylaşılacaktır.",
+      "Huccet AI's core features will be available free of charge. Updates about any future additional features will be shared in the app.",
   },
   {
-    question: "Cevaplar hangi mezheplere göre karşılaştırılıyor?",
+    question: "Which madhhabs are compared in the answers?",
     answer:
-      "Uygulama, konuya göre başlıca İslami mezheplerin görüşlerini karşılaştırmalı olarak sunar. Böylece farklı yaklaşımları bir arada görebilir ve daha geniş bir bakış açısı edinebilirsiniz.",
+      "Depending on the topic, the app presents the views of the major Islamic madhhabs comparatively. This lets you see different approaches together and gain a broader perspective.",
   },
   {
-    question: "Verilerim nasıl korunuyor?",
+    question: "How is my data protected?",
     answer:
-      "Gizliliğiniz önceliğimizdir. Sorularınız kimliğinizle ilişkilendirilmeden işlenir. Detaylı bilgi için Gizlilik Politikası sayfamızı inceleyebilirsiniz.",
+      "Your privacy is a priority. Your questions are processed without being linked to your identity. See our Privacy Policy for more information.",
   },
 ];
 
@@ -47,10 +47,10 @@ export function FAQ() {
       <div className="mx-auto max-w-3xl px-5 sm:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-balance text-3xl font-semibold tracking-tight sm:text-4xl">
-            Sıkça sorulan sorular
+            Frequently asked questions
           </h2>
           <p className="mt-4 text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg">
-            Aklınıza takılan başka bir şey varsa bize ulaşmaktan çekinmeyin.
+            Find answers to common questions about Huccet AI.
           </p>
         </div>
 

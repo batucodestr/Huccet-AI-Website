@@ -6,26 +6,26 @@ import { ArrowDown, MessageCircleQuestion, Scale, ScanSearch, Sparkles } from "l
 const steps = [
   {
     icon: MessageCircleQuestion,
-    title: "Sorunuzu sorun",
-    description: "Merak ettiğiniz İslami konuyu kendi cümlelerinizle sorun.",
+    title: "Ask your question",
+    description: "Ask about the Islamic topic you are curious about, in your own words.",
   },
   {
     icon: ScanSearch,
-    title: "Güvenilir kaynaklar taranır",
+    title: "Trusted sources are searched",
     description:
-      "Hüccet AI, geniş ve güvenilir kaynak havuzunda araştırma yapar.",
+      "Huccet AI researches a broad collection of trusted sources.",
   },
   {
     icon: Scale,
-    title: "Deliller karşılaştırılır",
+    title: "Evidence is compared",
     description:
-      "Farklı kaynaklar ve mezhep görüşleri birbiriyle karşılaştırılır.",
+      "Different sources and madhhab perspectives are considered side by side.",
   },
   {
     icon: Sparkles,
-    title: "Kanıt temelli cevap alın",
+    title: "Get an evidence-based answer",
     description:
-      "Kaynağı ve delili açıkça belirtilmiş, şeffaf bir cevap elde edersiniz.",
+      "Receive a transparent answer with its sources and evidence clearly identified.",
   },
 ];
 
@@ -35,10 +35,10 @@ export function HowItWorks() {
       <div className="mx-auto max-w-5xl px-5 sm:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-balance text-3xl font-semibold tracking-tight sm:text-4xl">
-            Nasıl çalışır?
+            How does it work?
           </h2>
           <p className="mt-4 text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg">
-            Dört basit adımda kanıta dayalı, şeffaf bir araştırma deneyimi.
+            An evidence-based, transparent research experience in four simple steps.
           </p>
         </div>
 
@@ -57,7 +57,7 @@ export function HowItWorks() {
                 </div>
                 <div className="text-left">
                   <p className="text-xs font-semibold uppercase tracking-wide text-brand-600 dark:text-brand-400">
-                    Adım {i + 1}
+                    Step {i + 1}
                   </p>
                   <h3 className="mt-0.5 font-semibold">{step.title}</h3>
                   <p className="mt-1 text-sm leading-relaxed text-muted-foreground">

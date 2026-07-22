@@ -27,39 +27,39 @@ type Feature = {
 const features: Feature[] = [
   {
     icon: ScrollText,
-    title: "Kanıt Tabanlı Cevaplar",
+    title: "Evidence-Based Answers",
     description:
-      "Her cevap; ayet, hadis veya güvenilir alim görüşü gibi somut delillerle desteklenir.",
+      "Every answer is supported by concrete evidence, such as Quranic verses, hadith, or trusted scholarly opinions.",
   },
   {
     icon: BookMarked,
-    title: "Güvenilir Kaynaklar",
+    title: "Trusted Sources",
     description:
-      "Yalnızca alanında tanınan, doğrulanabilir İslami kaynaklardan araştırma yapılır.",
+      "Research draws only on recognized, verifiable Islamic sources.",
   },
   {
     icon: Eye,
-    title: "Şeffaf Kaynak Gösterimi",
+    title: "Transparent Citations",
     description:
-      "Cevabın hangi kaynaktan geldiğini her zaman açıkça görebilir, kaynağa kendiniz ulaşabilirsiniz.",
+      "Always see where an answer comes from and consult the source yourself.",
   },
   {
     icon: Scale,
-    title: "Mezhep Görüşlerini Karşılaştırma",
+    title: "Compare Madhhab Perspectives",
     description:
-      "Farklı mezheplerin konuya yaklaşımını yan yana karşılaştırarak daha geniş bir bakış açısı edinin.",
+      "Compare how different madhhabs approach a topic side by side for a broader perspective.",
   },
   {
     icon: Sparkles,
-    title: "Yapay Zekâ Destekli Araştırma",
+    title: "AI-Powered Research",
     description:
-      "Gelişmiş yapay zekâ, geniş kaynak havuzunda sizin için hızlı ve derinlemesine araştırma yapar.",
+      "Advanced AI researches a wide source collection quickly and deeply on your behalf.",
   },
   {
     icon: Lock,
-    title: "Gizlilik Odaklı Deneyim",
+    title: "Privacy-Focused Experience",
     description:
-      "Sorularınız kimliğinizle ilişkilendirilmeden, gizliliğinizi önceleyen bir yapıda işlenir.",
+      "Your questions are handled without being linked to your identity, with privacy as a priority.",
   },
 ];
 
@@ -69,11 +69,11 @@ export function Features() {
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-balance text-3xl font-semibold tracking-tight sm:text-4xl">
-            Araştırmanızı güçlendiren özellikler
+            Features that strengthen your research
           </h2>
           <p className="mt-4 text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg">
-            Hüccet AI, İslami konularda güvenilir ve şeffaf bir araştırma
-            deneyimi sunmak için tasarlandı.
+            Huccet AI is designed to offer a trusted, transparent research
+            experience for Islamic topics.
           </p>
         </div>
 
