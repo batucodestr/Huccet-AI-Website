@@ -26,7 +26,7 @@ export function PhoneMockup() {
               <span>9:41</span>
               <span className="flex items-center gap-1">
                 <Sparkles className="h-3 w-3" />
-                Hüccet AI
+                Huccet AI
               </span>
             </div>
 
@@ -35,16 +35,16 @@ export function PhoneMockup() {
               <div className="relative h-8 w-8 overflow-hidden rounded-full ring-1 ring-white/20">
                 <Image
                   src="/images/logo-192.png"
-                  alt="Hüccet AI"
+                  alt="Huccet AI"
                   fill
                   sizes="32px"
                   className="object-cover"
                 />
               </div>
               <div>
-                <p className="text-xs font-semibold text-white">Hüccet AI</p>
+                <p className="text-xs font-semibold text-white">Huccet AI</p>
                 <p className="text-[10px] text-white/50">
-                  Araştırma Asistanı
+                  Research Assistant
                 </p>
               </div>
             </div>
@@ -54,7 +54,7 @@ export function PhoneMockup() {
               {/* user bubble */}
               <div className="flex justify-end">
                 <div className="max-w-[80%] rounded-2xl rounded-tr-sm bg-white/10 px-3.5 py-2.5 text-[12px] leading-relaxed text-white">
-                  Abdestte mesh yapmanın hükmü nedir?
+                  What is the ruling on wiping over socks during ablution?
                 </div>
               </div>
 
@@ -68,21 +68,21 @@ export function PhoneMockup() {
               >
                 <div className="mb-2 flex items-center gap-1.5 text-[10px] font-medium text-brand-300">
                   <BookOpenCheck className="h-3.5 w-3.5" />
-                  Kanıt Tabanlı Cevap
+                  Evidence-Based Answer
                 </div>
                 <p className="text-[12px] leading-relaxed text-white/85">
-                  Mesh, sünnetle sabit bir ruhsattır. Aşağıda kaynaklar ve
-                  mezhep görüşleri karşılaştırmalı olarak sunulmuştur.
+                  Wiping over socks is a concession established in the Sunnah.
+                  Sources and madhhab perspectives are compared below.
                 </p>
                 <div className="mt-3 flex flex-wrap gap-1.5">
                   <span className="rounded-full bg-brand-500/15 px-2 py-1 text-[9px] font-medium text-brand-200 ring-1 ring-brand-400/20">
-                    Sahih Hadis
+                    Authentic Hadith
                   </span>
                   <span className="rounded-full bg-brand-500/15 px-2 py-1 text-[9px] font-medium text-brand-200 ring-1 ring-brand-400/20">
-                    Hanefi
+                    Hanafi
                   </span>
                   <span className="rounded-full bg-brand-500/15 px-2 py-1 text-[9px] font-medium text-brand-200 ring-1 ring-brand-400/20">
-                    Şafii
+                    Shafi&apos;i
                   </span>
                 </div>
               </motion.div>
@@ -97,21 +97,21 @@ export function PhoneMockup() {
               >
                 <Scale className="h-4 w-4 shrink-0 text-brand-300" />
                 <p className="text-[10.5px] leading-snug text-white/70">
-                  4 mezhebe göre karşılaştırmalı görünüm mevcut
+                  Comparative view across four madhhabs
                 </p>
               </motion.div>
 
               <div className="flex items-center gap-2 rounded-2xl border border-brand-400/20 bg-brand-500/10 p-3">
                 <ShieldCheck className="h-4 w-4 shrink-0 text-brand-300" />
                 <p className="text-[10.5px] leading-snug text-white/70">
-                  Kaynaklar şeffaf şekilde gösterilir
+                  Sources are shown transparently
                 </p>
               </div>
             </div>
 
             {/* Input bar */}
             <div className="mx-4 mb-4 flex items-center justify-between rounded-full border border-white/10 bg-white/[0.06] px-4 py-2.5">
-              <span className="text-[11px] text-white/40">Soru sorun…</span>
+              <span className="text-[11px] text-white/40">Ask a question…</span>
               <div className="flex h-6 w-6 items-center justify-center rounded-full bg-brand-500">
                 <Sparkles className="h-3 w-3 text-brand-950" />
               </div>

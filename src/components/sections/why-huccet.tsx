@@ -19,17 +19,15 @@ export function WhyHuccet() {
             transition={{ duration: 0.6 }}
           >
             <span className="text-sm font-medium uppercase tracking-wider text-brand-300">
-              Neden Hüccet?
+              Why Huccet?
             </span>
             <h2 className="mt-3 text-balance text-3xl font-semibold tracking-tight sm:text-4xl">
-              &ldquo;Hüccet&rdquo;, İslami gelenekte delil ve kanıt anlamına
-              gelir.
+              &ldquo;Huccet&rdquo; means proof or evidence in the Islamic tradition.
             </h2>
             <p className="mt-5 text-pretty text-base leading-relaxed text-white/70 sm:text-lg">
-              İsmimizi bilinçli olarak seçtik: her iddianın bir dayanağı,
-              her cevabın bir delili olmalı. Hüccet AI da tam olarak bunu
-              yapar — sorularınıza verdiği her cevabın arkasındaki kaynağı
-              ve deliller açıkça gösterir.
+              We chose our name deliberately: every claim should have a basis,
+              and every answer should have evidence. Huccet AI does exactly
+              that by clearly showing the sources and evidence behind its answers.
             </p>
           </motion.div>
 
@@ -44,12 +42,11 @@ export function WhyHuccet() {
               <GraduationCap className="h-6 w-6 shrink-0 text-brand-300" />
               <div>
                 <h3 className="font-semibold text-white">
-                  Alimlerin yerini almaz
+                  Does not replace scholars
                 </h3>
                 <p className="mt-1.5 text-sm leading-relaxed text-white/60">
-                  Hüccet AI, din alimlerinin yerine geçmez ve dini hüküm
-                  (fetva) üretmez. Nihai kararlar için her zaman yetkin
-                  alimlere danışılmalıdır.
+                  Huccet AI does not replace religious scholars or issue religious
+                  rulings (fatwas). Always consult qualified scholars for final decisions.
                 </p>
               </div>
             </div>
@@ -58,11 +55,11 @@ export function WhyHuccet() {
               <Search className="h-6 w-6 shrink-0 text-brand-300" />
               <div>
                 <h3 className="font-semibold text-white">
-                  Şeffaf araştırma sunar
+                  Offers transparent research
                 </h3>
                 <p className="mt-1.5 text-sm leading-relaxed text-white/60">
-                  Amacımız, kullanıcıların güvenilir İslami kaynaklara
-                  kolayca ve şeffaf bir şekilde erişmesine yardımcı olmaktır.
+                  Our goal is to help people access trusted Islamic sources easily
+                  and transparently.
                 </p>
               </div>
             </div>
@@ -71,11 +68,11 @@ export function WhyHuccet() {
               <BookOpen className="h-6 w-6 shrink-0 text-brand-300" />
               <div>
                 <h3 className="font-semibold text-white">
-                  Kaynağa dayalı bakış açısı
+                  A source-based perspective
                 </h3>
                 <p className="mt-1.5 text-sm leading-relaxed text-white/60">
-                  Her yanıt, ilgili kaynaklarla birlikte sunulur; böylece
-                  okuyucu kendi araştırmasını derinleştirebilir.
+                  Each response includes relevant sources, so you can explore the
+                  topic more deeply yourself.
                 </p>
               </div>
             </div>

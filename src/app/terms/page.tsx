@@ -5,8 +5,8 @@ import { LegalPage } from "@/components/legal-page";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "Kullanım Koşulları",
-  description: `${siteConfig.name} kullanım koşulları — uygulamayı kullanırken uymanız gereken şartlar.`,
+  title: "Terms of Service",
+  description: `${siteConfig.name} terms of service and conditions for using the App.`,
 };
 
 export default function TermsOfServicePage() {
@@ -14,121 +14,82 @@ export default function TermsOfServicePage() {
     <>
       <SiteHeader />
       <main className="flex-1">
-        <LegalPage title="Kullanım Koşulları" updatedAt="11 Temmuz 2026">
+        <LegalPage title="Terms of Service" updatedAt="July 11, 2026">
           <p>
-            Bu Kullanım Koşulları (&ldquo;Koşullar&rdquo;), Hüccet AI mobil
-            uygulamasının (&ldquo;Uygulama&rdquo;) kullanımını
-            düzenlemektedir. Uygulamayı indirerek veya kullanarak bu
-            Koşulları kabul etmiş sayılırsınız. Koşulları kabul
-            etmiyorsanız lütfen Uygulamayı kullanmayınız.
+            These Terms of Service (the &ldquo;Terms&rdquo;) govern your use of the Huccet AI
+            mobile application (the &ldquo;App&rdquo;). By downloading or using the App,
+            you agree to these Terms. If you do not agree, please do not use the App.
           </p>
-
-          <h2>1. Hizmetin Tanımı</h2>
+          <h2>1. Description of the Service</h2>
           <p>
-            Hüccet AI, güvenilir İslami kaynakları araştıran ve
-            kullanıcılara delilleriyle birlikte bilgi sunan, yapay zekâ
-            destekli bir araştırma asistanıdır. Uygulama, kullanıcıların
-            İslami konularda kaynaklara dayalı, şeffaf bir şekilde bilgi
-            edinmesine yardımcı olmayı amaçlar.
+            Huccet AI is an AI-powered research assistant that explores trusted
+            Islamic sources and provides information with supporting evidence. The
+            App aims to help users learn about Islamic topics transparently and with
+            reference to sources.
           </p>
-
-          <h2>2. Önemli Uyarı: Fetva Makamı Değildir</h2>
+          <h2>2. Important Notice: Not a Fatwa Authority</h2>
           <p>
-            <strong>
-              Hüccet AI, resmi bir dini otorite, fetva makamı veya din
-              görevlisi değildir ve bu şekilde değerlendirilmemelidir.
-            </strong>{" "}
-            Uygulama tarafından sunulan içerikler; yapay zekâ destekli bir
-            araştırma aracının, kamuya açık ve güvenilir kabul edilen
-            kaynaklardan derlediği bilgilerden ibarettir. Bu içerikler:
+            <strong>Huccet AI is not an official religious authority, a fatwa authority, or a religious scholar, and it must not be treated as one.</strong>{" "}
+            The content provided by the App is information compiled by an AI-powered
+            research tool from publicly available, generally trusted sources. This content:
           </p>
           <ul>
-            <li>Bağlayıcı bir dini hüküm (fetva) teşkil etmez,</li>
-            <li>
-              Yetkin din alimlerinin veya müftülüklerin görüşünün yerine
-              geçmez,
-            </li>
-            <li>
-              Kişisel, hukuki veya dini kararlarınız için tek başına
-              dayanak olarak kullanılmamalıdır.
-            </li>
+            <li>Does not constitute a binding religious ruling (fatwa),</li>
+            <li>Does not replace the views of qualified religious scholars or official religious institutions, and</li>
+            <li>Must not be used as the sole basis for personal, legal, or religious decisions.</li>
           </ul>
           <p>
-            Bağlayıcı, kişiye özel veya hassas dini konularda mutlaka
-            yetkin ve güvenilir bir alime danışmanızı önemle tavsiye
-            ederiz.
+            For binding, personal, or sensitive religious matters, we strongly
+            recommend consulting a qualified and trusted scholar.
           </p>
-
-          <h2>3. Kullanım Şartları</h2>
-          <p>Uygulamayı kullanırken aşağıdaki kurallara uymayı kabul edersiniz:</p>
+          <h2>3. Acceptable Use</h2>
+          <p>When using the App, you agree to:</p>
           <ul>
-            <li>Uygulamayı yasa dışı veya yetkisiz amaçlarla kullanmamak,</li>
-            <li>
-              Uygulamanın işleyişini bozacak veya aşırı yük bindirecek
-              faaliyetlerde bulunmamak,
-            </li>
-            <li>
-              Elde edilen içerikleri yanlış bir şekilde resmi fetva veya
-              dini otorite kararı olarak sunmamak,
-            </li>
-            <li>
-              Uygulamayı, başkalarının haklarını ihlal edecek şekilde
-              kullanmamak.
-            </li>
+            <li>Not use the App for unlawful or unauthorized purposes;</li>
+            <li>Not engage in activities that disrupt the App or place an excessive load on it;</li>
+            <li>Not present content obtained through the App as an official fatwa or religious-authority decision; and</li>
+            <li>Not use the App in a way that infringes the rights of others.</li>
           </ul>
-
-          <h2>4. Fikri Mülkiyet</h2>
+          <h2>4. Intellectual Property</h2>
           <p>
-            Uygulama içerisindeki tasarım, logo, marka ve yazılıma ilişkin
-            tüm fikri mülkiyet hakları Hüccet AI&apos;ye veya lisans
-            verenlerine aittir. Önceden yazılı izin alınmaksızın bu
-            unsurlar çoğaltılamaz veya dağıtılamaz.
+            All intellectual-property rights in the App&apos;s design, logo, brand, and
+            software belong to Huccet AI or its licensors. These elements may not be
+            reproduced or distributed without prior written permission.
           </p>
-
-          <h2>5. Hizmetin Sınırlamaları ve Değişiklikler</h2>
+          <h2>5. Service Limitations and Changes</h2>
           <p>
-            Hizmetin kesintisiz, hatasız veya her zaman erişilebilir
-            olacağını garanti etmiyoruz. Uygulamanın özelliklerini,
-            içeriğini veya kullanılabilirliğini önceden bildirimde
-            bulunmaksızın değiştirme, askıya alma veya sonlandırma hakkını
-            saklı tutarız.
+            We do not guarantee that the service will be uninterrupted, error-free,
+            or always available. We reserve the right to change, suspend, or
+            discontinue features, content, or availability without prior notice.
           </p>
-
-          <h2>6. Sorumluluğun Sınırlandırılması</h2>
+          <h2>6. Limitation of Liability</h2>
           <p>
-            Hüccet AI, uygulama üzerinden sunulan içeriklerin kullanımından
-            doğabilecek doğrudan veya dolaylı zararlardan, yasaların izin
-            verdiği azami ölçüde sorumlu tutulamaz. Uygulama içeriği
-            &ldquo;olduğu gibi&rdquo; sunulmaktadır ve mutlak doğruluk veya
-            eksiksizlik garantisi verilmemektedir.
+            To the maximum extent permitted by law, Huccet AI is not liable for
+            direct or indirect damages arising from the use of content made available
+            through the App. App content is provided &ldquo;as is&rdquo; without a guarantee of
+            absolute accuracy or completeness.
           </p>
-
-          <h2>7. Üçüncü Taraf Bağlantıları ve Kaynaklar</h2>
+          <h2>7. Third-Party Links and Sources</h2>
           <p>
-            Uygulama, üçüncü taraf kaynaklara referans verebilir. Bu
-            kaynakların içeriğinden Hüccet AI sorumlu değildir; her kaynak
-            kendi orijinal bağlamında değerlendirilmelidir.
+            The App may refer to third-party sources. Huccet AI is not responsible
+            for their content, and each source should be evaluated in its original context.
           </p>
-
-          <h2>8. Koşullarda Değişiklik</h2>
+          <h2>8. Changes to These Terms</h2>
           <p>
-            Bu Kullanım Koşullarını zaman zaman güncelleyebiliriz.
-            Güncellenmiş koşullar bu sayfada yayınlandığı andan itibaren
-            geçerli olur. Uygulamayı kullanmaya devam etmeniz, güncellenmiş
-            koşulları kabul ettiğiniz anlamına gelir.
+            We may update these Terms from time to time. Updated Terms apply when
+            published on this page. Your continued use of the App means that you
+            accept the updated Terms.
           </p>
-
-          <h2>9. Uygulanacak Hukuk</h2>
+          <h2>9. Governing Law</h2>
           <p>
-            Bu Koşullar, ilgili yerel mevzuata tabi olup buna göre
-            yorumlanır. Bu Koşullardan doğabilecek uyuşmazlıklarda yetkili
-            mahkemeler ve merciler esas alınır.
+            These Terms are subject to applicable local law and interpreted
+            accordingly. Competent courts and authorities will govern disputes that
+            may arise from these Terms.
           </p>
-
-          <h2>10. İletişim</h2>
+          <h2>10. Contact</h2>
           <p>
-            Kullanım Koşulları hakkında sorularınız için bize uygulama
-            içindeki iletişim kanallarından ulaşabilirsiniz.
+            If you have questions about these Terms of Service, please contact us
+            through the communication channels in the App.
           </p>
         </LegalPage>
       </main>
