@@ -1,19 +1,18 @@
 export const siteConfig = {
   name: "Huccet AI",
-  title: "Huccet AI — Evidence-Based Islamic Research Assistant",
+  title: "Huccet AI — İslami Konularda Genel Bilgi Asistanı",
   description:
-    "Huccet AI is an AI-powered research assistant that explores trusted Islamic sources and presents answers with supporting evidence.",
+    "Huccet AI, İslami konularda merak ettiklerinizi yapay zekânın genel bilgisiyle yanıtlayan bir araştırma yardımcısıdır; fetva makamı değildir.",
   url: "https://huccet.ai",
   ogImage: "/og-image.png",
   keywords: [
     "Huccet AI",
-    "Islamic research",
-    "artificial intelligence",
-    "evidence-based answers",
-    "Islamic sources",
-    "hadith",
-    "fiqh",
-    "madhhab comparison",
+    "İslami araştırma",
+    "yapay zeka",
+    "genel bilgi asistanı",
+    "hadis",
+    "fıkıh",
+    "mezhep karşılaştırması",
   ],
   links: {
     appStore: "#",

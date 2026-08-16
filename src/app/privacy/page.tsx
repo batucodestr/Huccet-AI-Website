@@ -5,8 +5,8 @@ import { LegalPage } from "@/components/legal-page";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy",
-  description: `Learn how ${siteConfig.name} handles and protects your data.`,
+  title: "Gizlilik Politikası",
+  description: `${siteConfig.name} uygulamasının verilerinizi nasıl işlediğini öğrenin.`,
 };
 
 export default function PrivacyPolicyPage() {
@@ -14,83 +14,101 @@ export default function PrivacyPolicyPage() {
     <>
       <SiteHeader />
       <main className="flex-1">
-        <LegalPage title="Privacy Policy" updatedAt="July 11, 2026">
+        <LegalPage title="Gizlilik Politikası" updatedAt="16 Ağustos 2026">
           <p>
-            This Privacy Policy explains how your personal data is collected, used,
-            and protected when you use the Huccet AI mobile application (the
-            &ldquo;App&rdquo;, &ldquo;Huccet AI&rdquo;, or &ldquo;we&rdquo;). By using the App, you accept the
-            practices described in this policy.
+            Bu Gizlilik Politikası, Huccet AI mobil uygulamasını (&ldquo;Uygulama&rdquo;,
+            &ldquo;Huccet AI&rdquo; veya &ldquo;biz&rdquo;) kullandığınızda kişisel verilerinizin nasıl
+            işlendiğini açıklar. Uygulamayı kullanarak bu politikada açıklanan
+            uygulamaları kabul etmiş olursunuz.
           </p>
-          <h2>1. Information We Collect</h2>
+          <h2>1. Uygulamanın Çalışma Şekli</h2>
           <p>
-            Huccet AI does not require you to create a user account. However, the
-            following limited data may be collected to operate and improve the App:
+            Huccet AI&apos;nin kendi sunucusu, kaynak veritabanı veya doğrulama
+            katmanı yoktur. Uygulamaya yazdığınız soru, cevap üretilmek üzere
+            cihazınızdan doğrudan OpenRouter&apos;a (ABD merkezli bağımsız bir yapay
+            zeka servis sağlayıcısı, openrouter.ai) gönderilir. Aldığınız cevap,
+            yapay zeka modelinin kendi genel bilgisine dayanır; herhangi bir
+            kaynak veritabanına karşı doğrulanmaz veya kontrol edilmez.
           </p>
-          <ul>
-            <li><strong>Anonymous Visitor ID:</strong> A device-specific, anonymous identifier that does not directly reveal your identity may be created to provide a consistent experience and prevent misuse.</li>
-            <li><strong>Usage Data:</strong> Anonymized usage data, such as questions asked, screens viewed, and interaction statistics, may be collected.</li>
-            <li><strong>Device and Technical Information:</strong> Technical data such as operating-system version, app version, device model, and crash reports may be collected to improve service quality.</li>
-            <li><strong>Analytics Data:</strong> Aggregated and anonymous analytics may be processed to understand how the App is used.</li>
-          </ul>
-          <h2>2. Firebase and Third-Party Services</h2>
           <p>
-            Our App may use Firebase infrastructure provided by Google, such as
-            Firebase Analytics, Firebase Crashlytics, and Firebase Authentication.
-            Firebase may help collect and process the anonymous usage and technical
-            data described above. Please review Google&apos;s privacy policy for more
-            information about Firebase&apos;s data practices.
+            Sorunuz OpenRouter&apos;a yalnızca o anki isteğe cevap üretmek amacıyla
+            gönderilir; adınız, e-posta adresiniz veya bir hesapla
+            ilişkilendirilmez. OpenRouter&apos;ın verileri nasıl işlediği hakkında
+            bilgi için{" "}
+            <a
+              href="https://openrouter.ai/privacy"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-2"
+            >
+              openrouter.ai/privacy
+            </a>{" "}
+            adresini inceleyebilirsiniz.
           </p>
-          <h2>3. Cookies and Similar Technologies</h2>
+          <h2>2. Hesap ve Kimlik</h2>
           <p>
-            Our website may use a limited number of cookies or similar local-storage
-            technologies for essential functionality and anonymous visitor analytics.
-            These technologies are not used to identify you personally. You can
-            manage or disable cookies through your browser settings.
+            Huccet AI kullanmak için hesap oluşturmanız gerekmez. Uygulama,
+            cihazınızda rastgele oluşturulan anonim bir kimlik kullanır; bu
+            kimlik adınızı, e-posta adresinizi veya başka bir kişisel bilginizi
+            içermez ve sizi doğrudan tanımlamaz.
           </p>
-          <h2>4. How We Use Data</h2>
-          <p>We use collected data only to:</p>
-          <ul>
-            <li>Provide and maintain the App&apos;s functionality</li>
-            <li>Analyze and improve service quality</li>
-            <li>Detect and resolve technical issues</li>
-            <li>Prevent misuse and security violations</li>
-          </ul>
-          <p>Your data is never sold or rented to third parties for marketing purposes.</p>
-          <h2>5. Data Retention and Security</h2>
+          <h2>3. Sohbet Geçmişi</h2>
           <p>
-            Your data is protected with reasonable technical and administrative
-            measures against unauthorized access, loss, or misuse. It is retained
-            only as long as necessary for its functional purpose, unless a longer
-            retention period is required by law.
+            Sohbet geçmişiniz varsayılan olarak yalnızca cihazınızda saklanır ve
+            bizim sunucularımıza aktarılmaz.
           </p>
-          <h2>6. A Note About Religious Content and Questions</h2>
+          <h2>4. Firebase ve Analitik</h2>
           <p>
-            Questions you enter in the App may be processed to provide better,
-            evidence-based answers. They are evaluated through an anonymous visitor
-            ID and are not linked to your identity.
+            Uygulama içinde Firebase Analytics, Firebase Crashlytics ve Firebase
+            Authentication için altyapı bulunsa da bunlar şu anda aktif olarak
+            kullanılmamaktadır; ilgili yapılandırma alanları boştur ve hiçbir
+            veri toplanmamaktadır. Bu hizmetler ileride etkinleştirilirse, bu
+            politika güncellenerek bilgilendirme yapılacaktır.
           </p>
-          <h2>7. Children&apos;s Privacy</h2>
+          <h2>5. Reklam ve İzleme</h2>
           <p>
-            Our App does not knowingly collect personal data from children under
-            13. If we become aware of such a situation, we will promptly delete the
-            relevant data.
+            Uygulama reklam veya reklam amaçlı izleme (ör. IDFA) kullanmaz.
+            Verileriniz pazarlama amacıyla üçüncü taraflara satılmaz veya
+            kiralanmaz.
           </p>
-          <h2>8. Your Rights</h2>
+          <h2>6. Çerezler</h2>
           <p>
-            Subject to applicable data-protection laws, you may have the right to
-            request access to, correction of, or deletion of your data. You may
-            contact us through the communication channels in the App for such requests.
+            Web sitemiz, temel işlevsellik için sınırlı sayıda çerez veya benzeri
+            yerel depolama teknolojisi kullanabilir. Bu teknolojiler sizi
+            kişisel olarak tanımlamak için kullanılmaz. Çerezleri tarayıcı
+            ayarlarınızdan yönetebilir veya devre dışı bırakabilirsiniz.
           </p>
-          <h2>9. Changes to This Policy</h2>
+          <h2>7. Dini İçerik Hakkında Önemli Not</h2>
           <p>
-            We may update this Privacy Policy from time to time. Changes take effect
-            when published on this page. We may notify you of significant changes
-            through an in-app notification.
+            Huccet AI, sorularınızı doğrulanmış bir kaynak sistemine karşı
+            kontrol etmez; cevaplar yapay zekânın genel bilgisine dayanır ve
+            hatalı veya eksik olabilir. Uygulama bir fetva makamı değildir.
+            Bağlayıcı, kişisel veya hassas dini konularda mutlaka yetkin bir
+            din alimine danışın.
           </p>
-          <h2>10. Contact</h2>
+          <h2>8. Çocukların Gizliliği</h2>
           <p>
-            If you have questions about this Privacy Policy, please contact us through
-            the communication channels in the App.
+            Uygulamamız 13 yaşın altındaki çocuklardan bilerek kişisel veri
+            toplamaz. Böyle bir durumdan haberdar olursak, ilgili verileri
+            derhal sileriz.
+          </p>
+          <h2>9. Haklarınız</h2>
+          <p>
+            Geçerli veri koruma mevzuatına tabi olarak, verilerinize erişim,
+            düzeltme veya silme talebinde bulunma hakkınız olabilir. Bu tür
+            talepler için Uygulama içindeki iletişim kanalları üzerinden bize
+            ulaşabilirsiniz.
+          </p>
+          <h2>10. Bu Politikadaki Değişiklikler</h2>
+          <p>
+            Bu Gizlilik Politikasını zaman zaman güncelleyebiliriz.
+            Değişiklikler bu sayfada yayınlandığında yürürlüğe girer. Önemli
+            değişiklikleri uygulama içi bir bildirimle duyurabiliriz.
+          </p>
+          <h2>11. İletişim</h2>
+          <p>
+            Bu Gizlilik Politikası ile ilgili sorularınız için Uygulama
+            içindeki iletişim kanalları üzerinden bize ulaşabilirsiniz.
           </p>
         </LegalPage>
       </main>

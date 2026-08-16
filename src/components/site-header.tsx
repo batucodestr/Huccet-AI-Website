@@ -8,10 +8,10 @@ import { Button } from "@/components/ui/button";
 import { siteConfig } from "@/lib/site-config";
 
 const navLinks = [
-  { href: "#features", label: "Features" },
-  { href: "#why", label: "Why Huccet?" },
-  { href: "#how-it-works", label: "How It Works" },
-  { href: "#faq", label: "FAQ" },
+  { href: "#features", label: "Özellikler" },
+  { href: "#why", label: "Neden Huccet?" },
+  { href: "#how-it-works", label: "Nasıl Çalışır?" },
+  { href: "#faq", label: "SSS" },
 ];
 
 export function SiteHeader() {
@@ -52,7 +52,7 @@ export function SiteHeader() {
             nativeButton={false}
             className="bg-brand-500 text-brand-950 hover:bg-brand-400"
           >
-            Download the App
+            Uygulamayı İndir
           </Button>
         </div>
 
@@ -84,7 +84,7 @@ export function SiteHeader() {
               nativeButton={false}
               className="mt-2 w-full bg-brand-500 text-brand-950 hover:bg-brand-400"
             >
-              Download the App
+              Uygulamayı İndir
             </Button>
           </nav>
         </div>

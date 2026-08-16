@@ -32,32 +32,37 @@ export function SiteFooter() {
           </div>
 
           <div>
-            <h3 className="text-sm font-semibold text-white/90">Legal</h3>
+            <h3 className="text-sm font-semibold text-white/90">Yasal</h3>
             <ul className="mt-4 space-y-3 text-sm text-white/60">
               <li>
                 <Link href="/privacy" className="hover:text-white">
-                  Privacy Policy
+                  Gizlilik Politikası
                 </Link>
               </li>
               <li>
                 <Link href="/terms" className="hover:text-white">
-                  Terms of Service
+                  Kullanım Şartları
+                </Link>
+              </li>
+              <li>
+                <Link href="/support" className="hover:text-white">
+                  Destek
                 </Link>
               </li>
             </ul>
           </div>
 
           <div>
-            <h3 className="text-sm font-semibold text-white/90">Explore</h3>
+            <h3 className="text-sm font-semibold text-white/90">Keşfet</h3>
             <ul className="mt-4 space-y-3 text-sm text-white/60">
               <li>
                 <Link href="#features" className="hover:text-white">
-                  Features
+                  Özellikler
                 </Link>
               </li>
               <li>
                 <Link href="#faq" className="hover:text-white">
-                  Frequently Asked Questions
+                  Sıkça Sorulan Sorular
                 </Link>
               </li>
             </ul>
@@ -66,11 +71,11 @@ export function SiteFooter() {
 
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 text-xs text-white/50 sm:flex-row">
           <p>
-            © {year} {siteConfig.name}. All rights reserved.
+            © {year} {siteConfig.name}. Tüm hakları saklıdır.
           </p>
           <p className="max-w-md text-center sm:text-right">
-            Huccet AI is not a religious authority or a source of fatwas; it is
-            a tool that helps you research Islamic sources.
+            Huccet AI bir dini otorite ya da fetva kaynağı değildir; İslami
+            konularda genel bilgi sunan bir yapay zeka araştırma yardımcısıdır.
           </p>
         </div>
       </div>

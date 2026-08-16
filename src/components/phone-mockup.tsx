@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { BookOpenCheck, Scale, ShieldCheck, Sparkles } from "lucide-react";
+import { MessageSquareText, Scale, Info, Sparkles } from "lucide-react";
 import Image from "next/image";
 
 export function PhoneMockup() {
@@ -44,7 +44,7 @@ export function PhoneMockup() {
               <div>
                 <p className="text-xs font-semibold text-white">Huccet AI</p>
                 <p className="text-[10px] text-white/50">
-                  Research Assistant
+                  Genel Bilgi Asistanı
                 </p>
               </div>
             </div>
@@ -54,7 +54,7 @@ export function PhoneMockup() {
               {/* user bubble */}
               <div className="flex justify-end">
                 <div className="max-w-[80%] rounded-2xl rounded-tr-sm bg-white/10 px-3.5 py-2.5 text-[12px] leading-relaxed text-white">
-                  What is the ruling on wiping over socks during ablution?
+                  Abdestte mesh çekmenin hükmü nedir?
                 </div>
               </div>
 
@@ -67,22 +67,20 @@ export function PhoneMockup() {
                 className="rounded-2xl rounded-tl-sm border border-white/10 bg-white/[0.06] p-3.5 backdrop-blur"
               >
                 <div className="mb-2 flex items-center gap-1.5 text-[10px] font-medium text-brand-300">
-                  <BookOpenCheck className="h-3.5 w-3.5" />
-                  Evidence-Based Answer
+                  <MessageSquareText className="h-3.5 w-3.5" />
+                  Genel Bilgi Yanıtı
                 </div>
                 <p className="text-[12px] leading-relaxed text-white/85">
-                  Wiping over socks is a concession established in the Sunnah.
-                  Sources and madhhab perspectives are compared below.
+                  Mesh çekmek, sünnette yer alan bir ruhsattır. Mezheplere göre
+                  farklılık gösterebilen görüşler aşağıda dengeli şekilde
+                  özetlenir.
                 </p>
                 <div className="mt-3 flex flex-wrap gap-1.5">
                   <span className="rounded-full bg-brand-500/15 px-2 py-1 text-[9px] font-medium text-brand-200 ring-1 ring-brand-400/20">
-                    Authentic Hadith
+                    Hanefi
                   </span>
                   <span className="rounded-full bg-brand-500/15 px-2 py-1 text-[9px] font-medium text-brand-200 ring-1 ring-brand-400/20">
-                    Hanafi
-                  </span>
-                  <span className="rounded-full bg-brand-500/15 px-2 py-1 text-[9px] font-medium text-brand-200 ring-1 ring-brand-400/20">
-                    Shafi&apos;i
+                    Şafii
                   </span>
                 </div>
               </motion.div>
@@ -97,21 +95,21 @@ export function PhoneMockup() {
               >
                 <Scale className="h-4 w-4 shrink-0 text-brand-300" />
                 <p className="text-[10.5px] leading-snug text-white/70">
-                  Comparative view across four madhhabs
+                  Dört mezhebin görüşü dengeli şekilde özetlenir
                 </p>
               </motion.div>
 
               <div className="flex items-center gap-2 rounded-2xl border border-brand-400/20 bg-brand-500/10 p-3">
-                <ShieldCheck className="h-4 w-4 shrink-0 text-brand-300" />
+                <Info className="h-4 w-4 shrink-0 text-brand-300" />
                 <p className="text-[10.5px] leading-snug text-white/70">
-                  Sources are shown transparently
+                  Fetva değildir, yapay zekânın genel bilgisine dayanır
                 </p>
               </div>
             </div>
 
             {/* Input bar */}
             <div className="mx-4 mb-4 flex items-center justify-between rounded-full border border-white/10 bg-white/[0.06] px-4 py-2.5">
-              <span className="text-[11px] text-white/40">Ask a question…</span>
+              <span className="text-[11px] text-white/40">Bir soru sor…</span>
               <div className="flex h-6 w-6 items-center justify-center rounded-full bg-brand-500">
                 <Sparkles className="h-3 w-3 text-brand-950" />
               </div>

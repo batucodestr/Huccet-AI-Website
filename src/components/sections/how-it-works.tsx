@@ -1,31 +1,31 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowDown, MessageCircleQuestion, Scale, ScanSearch, Sparkles } from "lucide-react";
+import { ArrowDown, MessageCircleQuestion, Scale, Sparkles, Info } from "lucide-react";
 
 const steps = [
   {
     icon: MessageCircleQuestion,
-    title: "Ask your question",
-    description: "Ask about the Islamic topic you are curious about, in your own words.",
-  },
-  {
-    icon: ScanSearch,
-    title: "Trusted sources are searched",
-    description:
-      "Huccet AI researches a broad collection of trusted sources.",
-  },
-  {
-    icon: Scale,
-    title: "Evidence is compared",
-    description:
-      "Different sources and madhhab perspectives are considered side by side.",
+    title: "Sorunuzu sorun",
+    description: "Merak ettiğiniz İslami konuyu kendi cümlelerinizle sorun.",
   },
   {
     icon: Sparkles,
-    title: "Get an evidence-based answer",
+    title: "Yapay zeka yanıt üretir",
     description:
-      "Receive a transparent answer with its sources and evidence clearly identified.",
+      "Sorunuz doğrudan yapay zeka modeline iletilir ve genel bilgisine dayanan bir cevap üretilir.",
+  },
+  {
+    icon: Scale,
+    title: "Mezhep görüşleri özetlenir",
+    description:
+      "Uygun konularda farklı mezhep görüşleri dengeli bir şekilde yan yana özetlenir.",
+  },
+  {
+    icon: Info,
+    title: "Cevabı değerlendirin",
+    description:
+      "Aldığınız cevap doğrulanmış bir kaynağa karşı kontrol edilmez; bağlayıcı konularda bir alime danışın.",
   },
 ];
 
@@ -35,10 +35,10 @@ export function HowItWorks() {
       <div className="mx-auto max-w-5xl px-5 sm:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-balance text-3xl font-semibold tracking-tight sm:text-4xl">
-            How does it work?
+            Nasıl çalışır?
           </h2>
           <p className="mt-4 text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg">
-            An evidence-based, transparent research experience in four simple steps.
+            Dört basit adımda İslami konularda genel bilgi edinin.
           </p>
         </div>
 

@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   creator: siteConfig.name,
   openGraph: {
     type: "website",
-    locale: "en_US",
+    locale: "tr_TR",
     url: siteConfig.url,
     title: siteConfig.title,
     description: siteConfig.description,
@@ -68,7 +68,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="tr"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
       suppressHydrationWarning
     >

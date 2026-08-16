@@ -2,11 +2,11 @@
 
 import { motion } from "framer-motion";
 import {
-  BookMarked,
-  Eye,
+  MessageCircleQuestion,
+  Info,
   Lock,
   Scale,
-  ScrollText,
+  UserX,
   Sparkles,
   type LucideIcon,
 } from "lucide-react";
@@ -26,40 +26,40 @@ type Feature = {
 
 const features: Feature[] = [
   {
-    icon: ScrollText,
-    title: "Evidence-Based Answers",
+    icon: MessageCircleQuestion,
+    title: "Genel Bilgi Asistanı",
     description:
-      "Every answer is supported by concrete evidence, such as Quranic verses, hadith, or trusted scholarly opinions.",
+      "Sorularınız yapay zekânın genel bilgisiyle yanıtlanır; doğrulanmış bir kaynak sistemine karşı kontrol edilmez.",
   },
   {
-    icon: BookMarked,
-    title: "Trusted Sources",
+    icon: Info,
+    title: "Fetva Makamı Değil",
     description:
-      "Research draws only on recognized, verifiable Islamic sources.",
-  },
-  {
-    icon: Eye,
-    title: "Transparent Citations",
-    description:
-      "Always see where an answer comes from and consult the source yourself.",
+      "Huccet AI bir din alimi veya resmi otorite değildir. Bağlayıcı konularda mutlaka bir uzmana danışın.",
   },
   {
     icon: Scale,
-    title: "Compare Madhhab Perspectives",
+    title: "Mezhep Karşılaştırması",
     description:
-      "Compare how different madhhabs approach a topic side by side for a broader perspective.",
+      "Bir konudaki farklı mezhep görüşlerini dengeli bir şekilde özetleyerek daha geniş bir bakış açısı sunar.",
   },
   {
     icon: Sparkles,
-    title: "AI-Powered Research",
+    title: "Yapay Zeka Destekli",
     description:
-      "Advanced AI researches a wide source collection quickly and deeply on your behalf.",
+      "Sorunuza hızlı ve akıcı bir sohbet deneyimiyle yanıt üretir.",
+  },
+  {
+    icon: UserX,
+    title: "Hesap Gerektirmez",
+    description:
+      "Uygulamayı kullanmak için kayıt olmanıza gerek yoktur; cihazınızda anonim bir kimlik kullanılır.",
   },
   {
     icon: Lock,
-    title: "Privacy-Focused Experience",
+    title: "Gizlilik Odaklı Deneyim",
     description:
-      "Your questions are handled without being linked to your identity, with privacy as a priority.",
+      "Sorularınız kimliğinizle ilişkilendirilmeden işlenir; gizlilik önceliğimizdir.",
   },
 ];
 
@@ -69,11 +69,11 @@ export function Features() {
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-balance text-3xl font-semibold tracking-tight sm:text-4xl">
-            Features that strengthen your research
+            Araştırmanıza eşlik eden özellikler
           </h2>
           <p className="mt-4 text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg">
-            Huccet AI is designed to offer a trusted, transparent research
-            experience for Islamic topics.
+            Huccet AI, İslami konularda dürüst ve şeffaf bir sohbet
+            deneyimi sunmak için tasarlandı.
           </p>
         </div>
 

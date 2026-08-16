@@ -28,11 +28,11 @@ export function CTA() {
               className="mx-auto rounded-2xl"
             />
             <h2 className="mx-auto mt-6 max-w-xl text-balance text-3xl font-semibold tracking-tight text-white sm:text-4xl">
-              Start evidence-based research today.
+              Merak ettiklerinize hemen başlayın.
             </h2>
             <p className="mx-auto mt-4 max-w-md text-pretty text-white/70">
-              Download Huccet AI for free and discover the difference trusted
-              sources make.
+              Huccet AI&apos;yi ücretsiz indirin ve İslami konularda yapay
+              zeka destekli sohbet deneyimini keşfedin.
             </p>
             <div className="mt-8 flex justify-center">
               <StoreBadges />

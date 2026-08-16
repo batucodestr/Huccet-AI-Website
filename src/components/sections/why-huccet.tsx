@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { BookOpen, GraduationCap, Search } from "lucide-react";
+import { GraduationCap, Info, MessagesSquare } from "lucide-react";
 
 export function WhyHuccet() {
   return (
@@ -19,15 +19,17 @@ export function WhyHuccet() {
             transition={{ duration: 0.6 }}
           >
             <span className="text-sm font-medium uppercase tracking-wider text-brand-300">
-              Why Huccet?
+              Neden Huccet?
             </span>
             <h2 className="mt-3 text-balance text-3xl font-semibold tracking-tight sm:text-4xl">
-              &ldquo;Huccet&rdquo; means proof or evidence in the Islamic tradition.
+              &ldquo;Huccet&rdquo;, İslami gelenekte delil veya kanıt anlamına gelir.
             </h2>
             <p className="mt-5 text-pretty text-base leading-relaxed text-white/70 sm:text-lg">
-              We chose our name deliberately: every claim should have a basis,
-              and every answer should have evidence. Huccet AI does exactly
-              that by clearly showing the sources and evidence behind its answers.
+              İsmimizi bilinçli seçtik: merak ettiğiniz konularda net ve
+              anlaşılır bir başlangıç noktası sunmayı amaçlıyoruz. Ancak Huccet
+              AI&apos;nin verdiği cevaplar yapay zekânın genel bilgisine dayanır ve
+              doğrulanmış bir kaynak sistemine karşı kontrol edilmez; bu yüzden
+              hatalı veya eksik olabilir.
             </p>
           </motion.div>
 
@@ -42,37 +44,39 @@ export function WhyHuccet() {
               <GraduationCap className="h-6 w-6 shrink-0 text-brand-300" />
               <div>
                 <h3 className="font-semibold text-white">
-                  Does not replace scholars
+                  Din alimlerinin yerini tutmaz
                 </h3>
                 <p className="mt-1.5 text-sm leading-relaxed text-white/60">
-                  Huccet AI does not replace religious scholars or issue religious
-                  rulings (fatwas). Always consult qualified scholars for final decisions.
+                  Huccet AI, din alimlerinin yerini tutmaz veya dini hüküm
+                  (fetva) vermez. Bağlayıcı kararlar için mutlaka yetkin bir
+                  alime danışın.
                 </p>
               </div>
             </div>
 
             <div className="flex gap-4 rounded-2xl border border-white/10 bg-white/[0.04] p-5">
-              <Search className="h-6 w-6 shrink-0 text-brand-300" />
+              <MessagesSquare className="h-6 w-6 shrink-0 text-brand-300" />
               <div>
                 <h3 className="font-semibold text-white">
-                  Offers transparent research
+                  Akıcı bir sohbet deneyimi
                 </h3>
                 <p className="mt-1.5 text-sm leading-relaxed text-white/60">
-                  Our goal is to help people access trusted Islamic sources easily
-                  and transparently.
+                  Amacımız, İslami konularda merak ettiklerinize hızlı ve
+                  anlaşılır bir başlangıç noktası sunmak.
                 </p>
               </div>
             </div>
 
             <div className="flex gap-4 rounded-2xl border border-white/10 bg-white/[0.04] p-5">
-              <BookOpen className="h-6 w-6 shrink-0 text-brand-300" />
+              <Info className="h-6 w-6 shrink-0 text-brand-300" />
               <div>
                 <h3 className="font-semibold text-white">
-                  A source-based perspective
+                  Dürüst bir konumlandırma
                 </h3>
                 <p className="mt-1.5 text-sm leading-relaxed text-white/60">
-                  Each response includes relevant sources, so you can explore the
-                  topic more deeply yourself.
+                  Cevaplar, doğrulanmış bir kaynağa karşı kontrol edilmeden
+                  yapay zekânın genel bilgisinden üretilir. Bunu açıkça
+                  belirtiyoruz.
                 </p>
               </div>
             </div>

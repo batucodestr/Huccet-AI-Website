@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ShieldCheck, Sparkles } from "lucide-react";
+import { MessageCircleQuestion, Sparkles } from "lucide-react";
 import { PhoneMockup } from "@/components/phone-mockup";
 import { StoreBadges } from "@/components/store-badges";
 
@@ -33,17 +33,19 @@ export function Hero() {
           className="text-center lg:text-left"
         >
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-brand-400/20 bg-brand-500/10 px-3.5 py-1.5 text-xs font-medium text-brand-200">
-            <ShieldCheck className="h-3.5 w-3.5" />
-            Evidence-based, transparent research
+            <MessageCircleQuestion className="h-3.5 w-3.5" />
+            İslami konularda genel bilgi asistanı
           </div>
 
           <h1 className="text-balance text-4xl font-semibold tracking-tight text-white sm:text-5xl lg:text-[3.25rem] lg:leading-[1.05]">
-            Every answer has its evidence.
+            Merak ettiğin soruyu sor, yapay zeka yanıtlasın.
           </h1>
 
           <p className="mx-auto mt-5 max-w-xl text-pretty text-base leading-relaxed text-white/70 sm:text-lg lg:mx-0">
-            Huccet AI is an AI-powered research assistant that explores trusted
-            Islamic sources and presents answers with supporting evidence.
+            Huccet AI, İslami konulardaki sorularınızı yapay zekânın genel
+            bilgisiyle yanıtlayan bir araştırma yardımcısıdır. Bir fetva
+            makamı değildir; cevaplar doğrulanmış bir kaynak sistemine karşı
+            kontrol edilmez.
           </p>
 
           <div className="mt-8 flex justify-center lg:justify-start">
@@ -52,7 +54,7 @@ export function Hero() {
 
           <div className="mt-8 flex items-center justify-center gap-2 text-xs text-white/40 lg:justify-start">
             <Sparkles className="h-3.5 w-3.5" />
-            No account required · Sources shown transparently
+            Hesap gerektirmez · Gizlilik odaklı
           </div>
         </motion.div>
 
