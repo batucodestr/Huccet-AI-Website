@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Apple, PlayCircle } from "lucide-react";
+import { Apple } from "lucide-react";
 import { siteConfig } from "@/lib/site-config";
 
 export function StoreBadges({ className }: { className?: string }) {
@@ -14,17 +14,6 @@ export function StoreBadges({ className }: { className?: string }) {
         <span className="text-left leading-tight">
           <span className="block text-[10px] text-white/60">İndirin</span>
           <span className="block text-sm font-semibold">App Store</span>
-        </span>
-      </Link>
-      <Link
-        href={siteConfig.links.googlePlay}
-        aria-label="Google Play'de edinin"
-        className="group flex items-center gap-2.5 rounded-xl border border-white/15 bg-white/5 px-4 py-2.5 text-white transition-colors hover:bg-white/10"
-      >
-        <PlayCircle className="h-6 w-6" />
-        <span className="text-left leading-tight">
-          <span className="block text-[10px] text-white/60">Edinin</span>
-          <span className="block text-sm font-semibold">Google Play</span>
         </span>
       </Link>
     </div>

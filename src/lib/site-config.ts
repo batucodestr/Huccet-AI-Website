@@ -16,7 +16,6 @@ export const siteConfig = {
   ],
   links: {
     appStore: "#",
-    googlePlay: "#",
   },
 };
 
