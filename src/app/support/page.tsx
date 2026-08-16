@@ -65,8 +65,15 @@ export default function SupportPage() {
           </p>
           <h2>5. Bize Ulaşın</h2>
           <p>
-            Başka bir sorunuz veya geri bildiriminiz varsa, Uygulama içindeki
-            iletişim kanalları üzerinden bize ulaşabilirsiniz.
+            Başka bir sorunuz, geri bildiriminiz veya karşılaştığınız bir sorun
+            varsa{" "}
+            <a
+              href="mailto:info@batucodes.com"
+              className="underline underline-offset-2"
+            >
+              info@batucodes.com
+            </a>{" "}
+            adresinden bize ulaşabilirsiniz.
           </p>
         </LegalPage>
       </main>

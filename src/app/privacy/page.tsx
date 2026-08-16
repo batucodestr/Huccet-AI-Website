@@ -96,8 +96,14 @@ export default function PrivacyPolicyPage() {
           <p>
             Geçerli veri koruma mevzuatına tabi olarak, verilerinize erişim,
             düzeltme veya silme talebinde bulunma hakkınız olabilir. Bu tür
-            talepler için Uygulama içindeki iletişim kanalları üzerinden bize
-            ulaşabilirsiniz.
+            talepler için{" "}
+            <a
+              href="mailto:info@batucodes.com"
+              className="underline underline-offset-2"
+            >
+              info@batucodes.com
+            </a>{" "}
+            adresinden bize ulaşabilirsiniz.
           </p>
           <h2>10. Bu Politikadaki Değişiklikler</h2>
           <p>
@@ -107,8 +113,14 @@ export default function PrivacyPolicyPage() {
           </p>
           <h2>11. İletişim</h2>
           <p>
-            Bu Gizlilik Politikası ile ilgili sorularınız için Uygulama
-            içindeki iletişim kanalları üzerinden bize ulaşabilirsiniz.
+            Bu Gizlilik Politikası ile ilgili sorularınız için{" "}
+            <a
+              href="mailto:info@batucodes.com"
+              className="underline underline-offset-2"
+            >
+              info@batucodes.com
+            </a>{" "}
+            adresinden bize ulaşabilirsiniz.
           </p>
         </LegalPage>
       </main>

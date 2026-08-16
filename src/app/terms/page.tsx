@@ -113,8 +113,14 @@ export default function TermsOfServicePage() {
           </p>
           <h2>10. İletişim</h2>
           <p>
-            Bu Kullanım Şartları ile ilgili sorularınız için Uygulama
-            içindeki iletişim kanalları üzerinden bize ulaşabilirsiniz.
+            Bu Kullanım Şartları ile ilgili sorularınız için{" "}
+            <a
+              href="mailto:info@batucodes.com"
+              className="underline underline-offset-2"
+            >
+              info@batucodes.com
+            </a>{" "}
+            adresinden bize ulaşabilirsiniz.
           </p>
         </LegalPage>
       </main>
